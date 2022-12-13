@@ -1,0 +1,30 @@
+<Data>
+  <Events Desc="Events associated with controls">
+  </Events>
+  <Form Name="MainForm" Size="648,445" Tag="VisualStyle,DPIAware" Text="WebsiteDesigner">
+    <MenuStrip Name="ToolStrip" ImageScalingSize="16,16" Text="ToolStrip1">
+      <ToolStripMenuItem Name="ToolStripMenuItem_File" Text="File">
+        <ToolStripMenuItem Name="ToolStripMenuItem_New" Text="New" />
+        <ToolStripMenuItem Name="ToolStripMenuItem_Open" Text="Open" />
+        <ToolStripSeparator Name="ToolStripSeparator1" />
+        <ToolStripMenuItem Name="ToolStripMenuItem_Save" Text="Save" />
+        <ToolStripMenuItem Name="ToolStripMenuItem_Export" Text="Export">
+          <ToolStripMenuItem Name="ToolStripMenuItem_HTML" Text="HTML" />
+        </ToolStripMenuItem>
+        <ToolStripSeparator Name="ToolStripSeparator2" />
+        <ToolStripMenuItem Name="ToolStripMenuItem_Exit" Text="Exit" />
+      </ToolStripMenuItem>
+    </MenuStrip>
+    <Panel Name="Panel" Dock="Fill">
+      <TabControl Name="TabControl_Main" Dock="Fill">
+        <TabPage Name="TabPage_Designer" Size="628,349" Text="Designer">
+          <RichTextBox Name="RichTextBox_DesignerText" Dock="Fill" />
+        </TabPage>
+        <TabPage Name="TabPage_Code" Size="628,349" Text="Code">
+          <RichTextBox Name="RichTextBox_CodeText" Dock="Fill" />
+        </TabPage>
+      </TabControl>
+    </Panel>
+    <StatusStrip Name="StatusStrip" ImageScalingSize="16,16" Text="StatusStrip1" />
+  </Form>
+</Data>
